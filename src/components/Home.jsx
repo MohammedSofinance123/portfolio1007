@@ -4,7 +4,11 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import profileImage from "../assets/profile.jpg";
 
 const Home = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const isFrench = i18n.language.startsWith("fr");
+  const cvFileName = isFrench ? "DJEGHABA-CV-fr.pdf" : "DJEGHABA_CV-en.pdf";
+  const cvFilePath = `/${cvFileName}`;
 
   return (
     <section
@@ -13,7 +17,6 @@ const Home = () => {
       aria-label={t("home.aria_label", "Section Accueil")}
     >
       <div className="max-w-screen-xl mx-auto px-6 md:px-12 flex flex-col items-center justify-center gap-12 md:flex-row">
-
         {/* ---------- IMAGE PROFIL ---------- */}
         <div className="md:w-1/3 w-full flex justify-center">
           <img
@@ -57,8 +60,8 @@ const Home = () => {
             </a>
 
             <a
-              href="/CV-v2.pdf"
-              download="DJEGHABA_CV.pdf"
+              href={cvFilePath}
+              download={cvFileName}
               target="_blank"
               rel="noreferrer"
               className="flex items-center justify-center bg-gradient-to-r from-blue-500 to-cyan-500 text-white font-medium px-6 py-3 rounded-md shadow-md hover:scale-105 transition-transform duration-300"
@@ -73,7 +76,6 @@ const Home = () => {
 };
 
 export default Home;
-
 
 // import React from "react";
 // import { MdKeyboardArrowRight } from "react-icons/md";

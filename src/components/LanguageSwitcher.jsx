@@ -9,7 +9,7 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="fixed top-4 right-4 space-x-2 z-50">
+    <div className="flex space-x-2"> {/* <-- Plus aucune position fixed ici */}
       <button
         onClick={() => changeLanguage("en")}
         className={`px-3 py-1 rounded ${

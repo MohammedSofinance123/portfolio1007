@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import LanguageSwitcher from "./components/LanguageSwitcher";
+// import LanguageSwitcher from "./components/LanguageSwitcher";  <-- supprimer cet import
 import SocialLinks from "./components/SocialLinks";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="scroll-smooth bg-gradient-to-b from-black via-black to-gray-900 text-gray-300 min-h-screen">
       <Navbar />
-      <LanguageSwitcher />
+      {/* <LanguageSwitcher />  supprimer ceci */}
       <SocialLinks />
 
       <main className="pt-20">
