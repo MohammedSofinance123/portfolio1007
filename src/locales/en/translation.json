@@ -1,0 +1,143 @@
+{
+    "navbar": {
+      "aria_label": "Main navigation",
+      "logo": "Portfolio",
+      "open_menu": "Open menu",
+      "close_menu": "Close menu",
+      "links": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "experience": "Experience",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+      }
+    },
+    "home": {
+      "aria_label": "Home Section",
+      "profile_alt": "Photo of DJEGHABA MOHAMMED BAHA EDDINE",
+      "greeting": "Hello, I'm",
+      "title": "Network Engineer & Artificial Intelligence Specialist",
+      "title_part1": "Network Engineer &",
+      "title_highlight": "Artificial Intelligence",
+      "title_part2": "Full Stack Web & Mobile Developer",
+      "description": "Graduated in industrial network engineering and artificial intelligence, holding a Master's degree in telecommunications. Strong skills in IT systems, web development (MERN, Flutter), cybersecurity, and AI/IoT solutions. Passionate about digital innovation and high-performance distributed systems.",
+      "btn_portfolio": "Portfolio",
+      "portfolio": "Portfolio",
+      "download_cv": "Download CV",
+      "btn_download_cv": "Download CV"
+    },
+    "portfolio": {
+      "section_title": "Explore some of my most impactful projects and case studies.",
+      "section_description": "Explore some of my most impactful projects and case studies.",
+      "view_project": "View Project",
+      "project_screenshot_alt": "Screenshot of the project {{title}}",
+      "projects": [
+        {
+          "img": "/assets/weatherapp.png",
+          "title": "Weather Website",
+          "link": "https://weather.example.com"
+        },
+        {
+          "img": "/assets/Capture.png",
+          "title": "W-Kaufer Website",
+          "link": "https://wkaufer.example.com"
+        },
+        {
+          "img": "/assets/chat1.png",
+          "title": "ChatApp Website",
+          "link": "https://chatapp.example.com"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Technical Skills",
+      "description": "Technologies and tools I utilize to build scalable and robust solutions:"
+    },
+    "tech": {
+      "HTML": "HTML5",
+      "CSS": "CSS3",
+      "JavaScript": "JavaScript (ES6+)",
+      "React": "React.js",
+      "Node.js": "Node.js",
+      "MongoDB": "MongoDB",
+      "Tailwind CSS": "Tailwind CSS",
+      "GitHub": "GitHub"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "mail": "Email",
+      "cv": "Resume",
+      "navigation_label": "Social Media Links"
+    },
+    "about": {
+      "paragraph1": "As a skilled engineer specializing in <strong>industrial networks</strong> and <strong>artificial intelligence</strong>, I hold a Master's degree in telecommunications. I am passionate about leveraging technology and innovation to develop intelligent, scalable, and efficient systems tailored to modern industry needs.",
+      "paragraph2": "Driven by emerging technologies and a commitment to continuous learning, I design smart full-stack solutions spanning IoT, AI, and cloud infrastructures using React, Node.js, Flutter, and MongoDB. Combining scientific rigor with technical expertise and strong teamwork skills, I actively seek new professional challenges where I can contribute effectively and grow."
+    },
+    "experience": {
+      "title": "My Experience & Skills",
+      "description": "Here is a comprehensive overview of my professional journey, projects, and technologies I work with.",
+      "data": [
+        {
+          "title": "Software Engineer",
+          "company": "Sofinance SPA",
+          "date": "2025 – Present",
+          "points": [
+            "Commercial management project: client simulation, centralized offers.",
+            "Enhanced data security & confidentiality.",
+            "Cross-functional collaboration between business and development teams."
+          ]
+        },
+        {
+          "title": "Full Stack Developer",
+          "company": "Intaj Mohtawayat",
+          "date": "2024",
+          "points": [
+            "Created chatbots for UAR and Algeria Telecom.",
+            "Developed the MIM platform (authentication, security, scalability)."
+          ]
+        },
+        {
+          "title": "Web/Mobile Developer",
+          "company": "KIL Industrie",
+          "date": "2024 – 2025",
+          "points": [
+            "Intelligent parking management platform.",
+            "UI/UX performance optimization."
+          ]
+        },
+        {
+          "title": "Technical & Scientific Projects",
+          "company": "Flutter / AI / IoT",
+          "date": "2023 – 2024",
+          "points": [
+            "QOW-Pro: Flutter app for water quality monitoring.",
+            "AI leak prediction on IoT sensors."
+          ]
+        },
+        {
+          "title": "Industrial Internships",
+          "company": "Sonelgaz, Lafarge, URER-MS",
+          "date": "2021 – 2022",
+          "points": [
+            "Sonelgaz internship: automated industrial supervision.",
+            "URER-MS internship: smart control and renewable energy.",
+            "Lafarge internship: industrial energy audit."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "aria_label": "Contact Section",
+      "title": "Contact Me",
+      "name_label": "Your Name",
+      "email_label": "Your Email",
+      "message_label": "Your Message",
+      "send": "Send",
+      "sending": "Sending...",
+      "success_message": "✅ Message sent successfully!",
+      "error_message": "❌ Error sending message. Please try again."
+    }
+  }
+  

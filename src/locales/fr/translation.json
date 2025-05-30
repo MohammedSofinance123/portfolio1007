@@ -1,0 +1,137 @@
+{
+    "navbar": {
+      "aria_label": "Navigation principale",
+      "logo": "Portfolio",
+      "open_menu": "Ouvrir le menu",
+      "close_menu": "Fermer le menu",
+      "links": {
+        "home": "Accueil",
+        "about": "À propos",
+        "skills": "Compétences",
+        "experience": "Expérience",
+        "portfolio": "Portfolio",
+        "contact": "Contact"
+      }
+    },
+    "home": {
+      "greeting": "Bonjour, je suis",
+      "title": "Ingénieur Réseaux & Expert en Intelligence Artificielle",
+      "description": "Diplômé en ingénierie des réseaux industriels et intelligence artificielle, titulaire d’un Master en télécommunications, passionné par les solutions innovantes et les technologies de pointe.",
+      "portfolio": "Portfolio",
+      "download_cv": "Télécharger mon CV"
+    },
+    "portfolio": {
+      "section_title": "Découvrez une sélection de mes projets les plus marquants et impactants.",
+      "section_description": "Découvrez une sélection de mes projets les plus marquants et impactants.",
+      "view_project": "Voir le projet",
+      "project_screenshot_alt": "Capture d’écran du projet {{title}}",
+      "projects": [
+        {
+          "img": "/assets/weatherapp.png",
+          "title": "Weather Website",
+          "link": "https://weather.example.com"
+        },
+        {
+          "img": "/assets/Capture.png",
+          "title": "W-Kaufer Website",
+          "link": "https://wkaufer.example.com"
+        },
+        {
+          "img": "/assets/chat1.png",
+          "title": "ChatApp Website",
+          "link": "https://chatapp.example.com"
+        }
+      ]
+    },
+    "skills": {
+      "title": "Compétences Techniques",
+      "description": "Technologies et outils que j’utilise pour concevoir des solutions robustes, évolutives et performantes :"
+    },
+    "tech": {
+      "HTML": "HTML5",
+      "CSS": "CSS3",
+      "JavaScript": "JavaScript (ES6+)",
+      "React": "React.js",
+      "Node.js": "Node.js",
+      "MongoDB": "MongoDB",
+      "Tailwind CSS": "Tailwind CSS",
+      "GitHub": "GitHub"
+    },
+    "social": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "mail": "Email",
+      "cv": "CV",
+      "navigation_label": "Réseaux Sociaux"
+    },
+    "about": {
+      "title": "À propos de moi",
+      "paragraph1": "Ingénieur diplômé en <industrial>réseaux industriels</industrial> et en <ai>intelligence artificielle</ai>, titulaire également d’un Master en <telecom>télécommunications</telecom>. Mon parcours académique, couronné d’excellents résultats à l’École Supérieure en Sciences Appliquées de Tlemcen et à l’École Nationale Supérieure des Énergies Renouvelables (URER-MS), m’a permis d’acquérir une solide maîtrise des systèmes distribués, de la cybersécurité, ainsi que des architectures web et mobiles modernes.",
+      "paragraph2": "Passionné par les <tech>technologies émergentes</tech> et l’innovation, je conçois des solutions intelligentes (IoT/IA) et performantes en full stack (React, Node.js, Flutter, MongoDB). Mon profil allie rigueur scientifique, expertise technique et esprit collaboratif. Je suis constamment à la recherche de nouveaux défis professionnels pour valoriser mes compétences, approfondir mes connaissances et contribuer efficacement à des projets ambitieux et innovants."
+    },
+    "experience": {
+      "title": "Mon Expérience & Compétences",
+      "description": "Voici un aperçu complet de mon parcours professionnel, de mes projets, et des technologies que j’utilise.",
+      "data": [
+        {
+          "title": "Ingénieur Informatique",
+          "company": "Sofinance SPA",
+          "date": "2025 – Présent",
+          "points": [
+            "Projet de gestion commerciale : simulation client, offres centralisées.",
+            "Sécurité des données & confidentialité renforcée.",
+            "Collaboration transverse entre équipes métier et dev."
+          ]
+        },
+        {
+          "title": "Développeur Full Stack",
+          "company": "Intaj Mohtawayat",
+          "date": "2024",
+          "points": [
+            "Création de chatbots pour UAR et Algérie Télécom.",
+            "Développement de la plateforme MIM (authentification, sécurité, scalabilité)."
+          ]
+        },
+        {
+          "title": "Développeur Web/Mobile",
+          "company": "KIL Industrie",
+          "date": "2024 – 2025",
+          "points": [
+            "Plateforme de gestion intelligente de parkings.",
+            "Optimisation des performances UI/UX."
+          ]
+        },
+        {
+          "title": "Projets Techniques & Scientifiques",
+          "company": "Flutter / IA / IoT",
+          "date": "2023 – 2024",
+          "points": [
+            "QOW-Pro : Application Flutter pour la qualité de l’eau.",
+            "Prédiction IA de fuites sur capteurs IoT."
+          ]
+        },
+        {
+          "title": "Stages Industriels",
+          "company": "Sonelgaz, Lafarge, URER-MS",
+          "date": "2021 – 2022",
+          "points": [
+            "Stage Sonelgaz : supervision automatisée industrielle.",
+            "Stage URER-MS : commande intelligente et énergie renouvelable.",
+            "Stage Lafarge : audit énergétique industriel."
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "aria_label": "Section Contact",
+      "title": "Contactez-moi",
+      "name_label": "Votre nom",
+      "email_label": "Votre email",
+      "message_label": "Votre message",
+      "send": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success_message": "✅ Message envoyé avec succès !",
+      "error_message": "❌ Erreur lors de l'envoi. Veuillez réessayer."
+    }
+  }
+  

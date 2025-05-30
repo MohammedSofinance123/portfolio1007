@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+import LanguageSwitcher from "./components/LanguageSwitcher";
 import SocialLinks from "./components/SocialLinks";
 import Home from "./components/Home";
 import About from "./components/About";
@@ -10,15 +11,23 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="scroll-smooth"> {/* Pour activer scroll fluide en Tailwind */}
+    <div className="scroll-smooth bg-gradient-to-b from-black via-black to-gray-900 text-gray-300 min-h-screen">
       <Navbar />
+      <LanguageSwitcher />
       <SocialLinks />
-      <Home />         {/* id="home" */}
-      <About />        {/* id="about" */}
-      <Skills />       {/* id="skills" */}
-      <Experience />   {/* id="experience" */}
-      <Portfolio />    {/* id="portfolio" */}
-      <Contact />      {/* id="contact" */}
+
+      <main className="pt-20">
+        <Home />
+        <About />
+        <Skills />
+        <Experience />
+        <Portfolio />
+        <Contact />
+      </main>
+
+      <footer className="text-center py-6 text-gray-500 text-sm select-none">
+        &copy; {new Date().getFullYear()} DJEGHABA MOHAMMED BAHA EDDINE - Tous droits réservés.
+      </footer>
     </div>
   );
 }

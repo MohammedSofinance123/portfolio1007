@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -20,18 +22,21 @@ const techs = [
 ];
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="skills"
       className="w-full bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white py-20"
+      aria-label={t("skills.title")}
     >
       <div className="max-w-screen-lg mx-auto p-4">
         <div className="pb-8 text-center">
           <h2 className="text-4xl font-bold border-b-4 border-cyan-500 inline-block">
-            Compétences Techniques
+            {t("skills.title")}
           </h2>
           <p className="text-gray-300 text-lg mt-4">
-            Voici les technologies que j'utilise dans mes projets professionnels :
+            {t("skills.description")}
           </p>
         </div>
 
@@ -40,9 +45,11 @@ const Skills = () => {
             <div
               key={id}
               className={`flex flex-col items-center justify-center border-t-4 ${border} hover:scale-105 transition-transform duration-300 rounded-xl bg-gray-800 p-6 shadow-lg`}
+              role="img"
+              aria-label={t(`tech.${title}`)}
             >
-              <img src={src} alt={title} className="w-16 h-16 mb-4" />
-              <p className="text-lg font-semibold">{title}</p>
+              <img src={src} alt={t(`tech.${title}`)} className="w-16 h-16 mb-4" />
+              <p className="text-lg font-semibold">{t(`tech.${title}`)}</p>
             </div>
           ))}
         </div>

@@ -1,69 +1,24 @@
 import React from "react";
-
-const experienceData = [
-  {
-    title: "Ingénieur Informatique",
-    company: "Sofinance SPA",
-    date: "2025 – Présent",
-    points: [
-      "Projet de gestion commerciale : simulation client, offres centralisées.",
-      "Sécurité des données & confidentialité renforcée.",
-      "Collaboration transverse entre équipes métier et dev.",
-    ],
-  },
-  {
-    title: "Développeur Full Stack",
-    company: "Intaj Mohtawayat",
-    date: "2024",
-    points: [
-      "Création de chatbots pour UAR et Algérie Télécom.",
-      "Développement de la plateforme MIM (authentification, sécurité, scalabilité).",
-    ],
-  },
-  {
-    title: "Développeur Web/Mobile",
-    company: "KIL Industrie",
-    date: "2024 – 2025",
-    points: [
-      "Plateforme de gestion intelligente de parkings.",
-      "Optimisation des performances UI/UX.",
-    ],
-  },
-  {
-    title: "Projets Techniques & Scientifiques",
-    company: "Flutter / IA / IoT",
-    date: "2023 – 2024",
-    points: [
-      "QOW-Pro : Application Flutter pour la qualité de l’eau.",
-      "Prédiction IA de fuites sur capteurs IoT.",
-    ],
-  },
-  {
-    title: "Stages Industriels",
-    company: "Sonelgaz, Lafarge, URER-MS",
-    date: "2021 – 2022",
-    points: [
-      "Stage Sonelgaz : supervision automatisée industrielle.",
-      "Stage URER-MS : commande intelligente et énergie renouvelable.",
-      "Stage Lafarge : audit énergétique industriel.",
-    ],
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const Experience = () => {
+  const { t } = useTranslation();
+
+  // Récupérer les données traduites (tableaux dans les fichiers JSON)
+  const experienceData = t("experience.data", { returnObjects: true });
+
   return (
-    <div
+    <section
       id="experience"
       className="w-full bg-gradient-to-b from-gray-800 to-black text-white py-20"
+      aria-label={t("experience.title")}
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-10">
           <h2 className="text-4xl font-bold inline border-b-4 border-cyan-500">
-            Mon Expérience & Compétences
+            {t("experience.title")}
           </h2>
-          <p className="text-xl mt-4 text-gray-300">
-            Voici un aperçu complet de mon parcours professionnel, de mes projets, et des technologies que j’utilise.
-          </p>
+          <p className="text-xl mt-4 text-gray-300">{t("experience.description")}</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -85,7 +40,7 @@ const Experience = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
